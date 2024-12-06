@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.signUp,.signIn ,.welcome {
+  background-color: #24353f;
+}
+ .group {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+  font-weight: 500;
+  color: rgb(23, 162, 184);
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+ .group .form-control {
+  color:white !important;
+  background-color: transparent;
+  background-clip: padding-box;
+}
+ .group .form-control:focus{
+box-shadow: 0 0 0 0;}
+ .group .form-control::placeholder{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+ .group p{
+    font-weight: 400;
+    color: white;
+    line-height: 1.5rem;
+}
+ .group p a{
+    font-weight: 400;
+    color: white;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+ .group p a:hover{
+    text-decoration: underline;
+}
+
